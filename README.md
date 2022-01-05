@@ -1,8 +1,10 @@
 # CPPND: Capstone Snake Game Example
 
-This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses.
+This is an extended repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses. 
 
-<img src="snake_game.gif"/>
+<img src="snake.gif"/>
+
+The code has been extended to include moving walls and pits. Moving walls are marked in purple, pits are marked in red. Whenever the snake runs into a wall or is hit by one, the game is over. Whenever the snake runs over a pit, its body is reduced by one cell and the score is reduced by one point.
 
 The Capstone Project gives you a chance to integrate what you've learned throughout this program. This project will become an important part of your portfolio to share with current and future colleagues and employers.
 
